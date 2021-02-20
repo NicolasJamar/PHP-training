@@ -1,5 +1,10 @@
-<?php 
+<?php
 
-// echo "Ouais BeCode";
+include "classes/recipes.php";
+include "classes/render.php";
+include "classes/recipecollection.php";
+include "inc/cookbook.php";
 
-phpinfo();
+echo Render::displayRecipe($recipe1);
+	
+?>
